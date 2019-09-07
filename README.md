@@ -5,13 +5,13 @@
 ### Установка
 
 ```
-$ composer require avl/logger
+$ composer require avl/admin-logger
 ```
 
 ```json
 {
     "require": {
-        "avl/logger": "^1.0"
+        "avl/admin-logger": "^1.0"
     }
 }
 ```
@@ -20,5 +20,5 @@ $ composer require avl/logger
 Для публикации опубликации файла настроек необходимо выполнить команду:
 
 ```
-$ php artisan vendor:publish --provider="Avl\Logger\AvlLoggerServiceProvider"
+$ php artisan vendor:publish --provider="Avl\AdminLogger\AdminLoggerServiceProvider"
 ```
